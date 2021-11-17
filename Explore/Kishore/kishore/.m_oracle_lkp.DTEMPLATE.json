@@ -16,9 +16,9 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "Mapping pushed from PC to ICS : m_oracle_lkp",
+        "description" : "",
         "contentType" : "JSON",
-        "documentState" : "VALID"
+        "documentState" : "INVALID"
       }
     }
   },
