@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "1u56yN8TmmSibaF3CZ6q2J",
+    "name" : "kishore",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Folder Created for Shared Sequence",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
