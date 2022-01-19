@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "3YPzqFUZvB1fT0zV7G3DKZ",
+    "name" : "PCRS_1040",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Migrated project",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
