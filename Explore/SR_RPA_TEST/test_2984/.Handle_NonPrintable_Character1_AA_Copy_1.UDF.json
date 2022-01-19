@@ -1,0 +1,27 @@
+{
+  "objectInfo" : {
+    "id" : "28AkbdCDf1uhpusrPTSxSe",
+    "name" : "Handle_NonPrintable_Character1_AA_Copy_1",
+    "type" : "UDF",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0111EL4100000000000U"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ ]
+}
