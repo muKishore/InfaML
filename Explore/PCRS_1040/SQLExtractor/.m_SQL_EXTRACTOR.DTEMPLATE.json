@@ -35,7 +35,10 @@
       "repoInfo" : {
         "repoHandle" : "0111EL40000000000002"
       },
-      "contextAttributes" : null,
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
       "additionalInfo" : {
         "description" : "Mapplet pushed from PC to ICS : mplt_Shared_Folder",
         "contentType" : "JSON",
@@ -55,7 +58,10 @@
       "repoInfo" : {
         "repoHandle" : "0111EL40000000000003"
       },
-      "contextAttributes" : null,
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
       "additionalInfo" : {
         "description" : "Mapplet pushed from PC to ICS : mplt_This_Folder",
         "contentType" : "JSON",
