@@ -32,7 +32,10 @@
       "repoInfo" : {
         "repoHandle" : "0111EL0Z00000000000A"
       },
-      "contextAttributes" : null,
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
       "additionalInfo" : {
         "description" : "Added description new ",
         "contentType" : null,
