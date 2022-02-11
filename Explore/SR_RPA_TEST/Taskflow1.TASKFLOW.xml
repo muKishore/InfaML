@@ -12,8 +12,12 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>nmaliack</types1:CreatedBy>
       <types1:CreationDate>2022-01-19T14:02:38Z</types1:CreationDate>
-      <types1:ModifiedBy/>
-      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:ModifiedBy>nmaliack</types1:ModifiedBy>
+      <types1:ModificationDate>2022-02-11T11:20:39Z</types1:ModificationDate>
+      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
+      <types1:PublishedBy>nmaliack</types1:PublishedBy>
+      <types1:PublicationDate>2022-02-11T11:18:34Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/tf.Taskflow1/Taskflow1.tf.xml</types1:PublishedContributionId>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
          <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
@@ -77,7 +81,7 @@
                         <operation source="field" to="temp.Data Task 1/output/FirstErrorCode">First Error Code</operation>
                      </serviceOutput>
                   </service>
-                  <link id="kylm5o09" targetId="c"/>
+                  <link id="kzibin4c" targetId="kzibin4b"/>
                   <events>
                      <catch faultField="temp.Data Task 1/fault"
                             id="kylm5o0t"
@@ -91,6 +95,20 @@
                             name="warning"/>
                   </events>
                </eventContainer>
+               <service id="kzibin4b">
+                  <title>Notification Task 1</title>
+                  <serviceName>emailNotificationService</serviceName>
+                  <serviceGUID/>
+                  <serviceInput>
+                     <parameter name="Email To" source="constant">something@something.com</parameter>
+                     <parameter name="Email Cc" source="constant"/>
+                     <parameter name="Email Subject" source="constant"/>
+                     <parameter name="Email Content Type" source="constant">text</parameter>
+                     <parameter name="Email Body" source="constant"/>
+                  </serviceInput>
+                  <serviceOutput/>
+                  <link id="kzibin4d" targetId="c"/>
+               </service>
                <end id="c"/>
             </flow>
             <dependencies>
@@ -129,5 +147,5 @@
       <types1:GUID>gufpgIUtuoXjWCiMqZAXch</types1:GUID>
       <types1:DisplayName>Taskflow1</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2022-01-20T14:59:18.503Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2022-02-11T11:21:16.128Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
